@@ -45,6 +45,13 @@ http://localhost/superheroes-hangman
 
 ¡MUCHA SUERTE!
 
+---
+
+## Tecnología
+
+- Para este proyecto se ha utilizado PHP, Javascript y CSS. No he considerado viable la creación de base de datos ya que no hay información persistente. <br>
+Simplemente con algunas constantes se ha regulado el número de intentos. Por esto, no hay clases de Modelos.
+
 ## Créditos
 
 Material para la prueba técnica proporcionado por PB.
