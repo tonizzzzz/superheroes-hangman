@@ -19,31 +19,29 @@ En caso de no acertar en 5 intentos, todos los jugadores quedan eliminados.
 
 ### Pre-requisitos
 
-- Tener un entorno web instalado en el equipo que incluya servidor Apache con PHP > 7.0.
-<br>
-- Ejemplos de entornos
-<br>
-Windows: [Xampp](https://www.apachefriends.org/es/index.html) & [Laragon](https://laragon.org)
-<br>
-Linux: [Lampp](https://www.apachefriends.org/es/download.html)
+- Tener un entorno web instalado en el equipo que incluya servidor Apache con PHP > 7.0.<br>
+- Ejemplos de entornos:<br>
+Windows: [Xampp](https://www.apachefriends.org/es/index.html) & [Laragon](https://laragon.org)<br>
+Linux: [Lampp](https://www.apachefriends.org/es/download.html)<br>
+
 
 ### Descarga y despliegue
 
-- Abrir una linea de comandos y situarse en la carpeta correspondiente a localhost
-    
-    En caso de Xampp -> c:\xampp\htdocs
-    En caso de Lampp -> c:\lampp\htdocs
-    En caso de Laragon -> c:\laragon\wwww
+- Abrir una linea de comandos y situarse en la carpeta correspondiente a localhost<br>
+En caso de Xampp -> c:\xampp\htdocs<br>
+En caso de Lampp -> c:\lampp\htdocs<br>
+En caso de Laragon -> c:\laragon\wwww<br>
 
     git clone https://github.com/tonizzzzz/superheroes-hangman.git
 
+
 ### Ejecución
 
-    Abrir el navegador y ejecutar la siguiente dirección: 
+- Abrir el navegador y ejecutar la siguiente dirección:<br>
     
     http://localhost/superheroes-hangman
 
-    ¡MUCHA SUERTE!
+¡MUCHA SUERTE!
 
 
 ## Créditos
