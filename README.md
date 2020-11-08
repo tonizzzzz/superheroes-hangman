@@ -1,5 +1,4 @@
-# superheroes-hangman
-Hangman game based on Superheroes
+# SuperHeroes Hangman
 
 <div align="center">
         <img
@@ -7,8 +6,6 @@ Hangman game based on Superheroes
             src="https://github.com/tonizzzzz/superheroes-hangman/blob/main/src/img/header.png?raw=true"
             />
 </div>
-
-# SuperHeroes Hangman
 
 Juego común del ahorcado basado en superheroes. 
 Elige el número de jugadores, introduce el nombre y... ¡A jugar!
@@ -26,9 +23,10 @@ En caso de no acertar en 5 intentos, todos los jugadores quedan eliminados.
         Windows:  Xampp, Laragon
         Linux: Lampp
 
-### Descarga y 
+### Descarga y despliegue
 
 - Abrir una linea de comandos y situarse en la carpeta correspondiente a localhost
+    
     En caso de Xampp -> c:\xampp\htdocs
     En caso de Lampp -> c:\lampp\htdocs
     En caso de Laragon -> c:\laragon\wwww
@@ -36,7 +34,9 @@ En caso de no acertar en 5 intentos, todos los jugadores quedan eliminados.
     git clone https://github.com/tonizzzzz/superheroes-hangman.git
 
 ### Ejecución
+
     Abrir el navegador y ejecutar la siguiente dirección: 
+    
     http://localhost/superheroes-hangman
 
     ¡MUCHA SUERTE!
@@ -44,4 +44,4 @@ En caso de no acertar en 5 intentos, todos los jugadores quedan eliminados.
 
 ## Créditos
 
-Material proporcionado por P.I.B
+Material para la prueba técnica proporcionado por PB.
