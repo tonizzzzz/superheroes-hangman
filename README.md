@@ -54,4 +54,4 @@ Simplemente con algunas constantes se ha regulado el número de intentos. Por es
 
 ## Créditos
 
-Material para la prueba técnica proporcionado por PB.
+- Material para prueba técnica proporcionado por PB.
