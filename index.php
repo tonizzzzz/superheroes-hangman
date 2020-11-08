@@ -21,7 +21,6 @@ switch($action) {
         $utils->checkLetter($_POST);
     break;
     default:
-        //Ejecuto el método
         $controller->index();
     break;
 }

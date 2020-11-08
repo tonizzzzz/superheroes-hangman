@@ -1,5 +1,6 @@
 <?php include 'shared/header.php'; ?>
 <link href="styles/endgame.css" rel="stylesheet" type="text/css">
+<script src="scripts/themeController.js"></script>
 
 <div class="container">
     <div class="header-title">

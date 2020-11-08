@@ -1,4 +1,6 @@
 <?php include 'shared/header.php'; ?>
+<script src="scripts/index.js"></script>
+<script src="scripts/themeController.js"></script>
 
 <div class="container">
     <form action="index.php?action=playgame" id="formGame" method="POST"> 
@@ -23,24 +25,3 @@
     </form>
     <?php include 'shared/footer.php'; ?>
 </div>
-
-<script type="text/javascript">
-    $(function() {
-        //Cuando el elemento nPlayers cambie de valor, crea las celdas correspondientes
-        $("#nPlayers").on("change keyup keypress", function(e){
-            $(".playerNames").html("");
-            if (this.value > 0) {
-                let i = 0;
-                //Generar tantas celdas como número introducido
-                for(i = 0; i < this.value; i ++) {
-                    $(".playerNames").append( $(`<input name="players[]" required placeholder="Player ${i + 1}"></input>`) )
-                }
-            }
-        })
-        $("#btnStartGame").on('click', function() {
-            $("#formGame").submit();
-        })
-    })
-</script>
-
-
