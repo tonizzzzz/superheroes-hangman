@@ -30,12 +30,12 @@ Linux: [Lampp](https://www.apachefriends.org/es/download.html)<br>
 - Abrir una linea de comandos y situarse en la carpeta correspondiente a localhost<br><br>
 En caso de Xampp -> c:\xampp\htdocs<br>
 En caso de Lampp -> c:\lampp\htdocs<br>
-En caso de Laragon -> c:\laragon\wwww<br>
+En caso de Laragon -> c:\laragon\wwww<br><br>
     git clone https://github.com/tonizzzzz/superheroes-hangman.git
 
 ## Ejecución
 
-- Abrir el navegador y ejecutar la siguiente dirección:<br>
+- Abrir el navegador y ejecutar la siguiente dirección:<br><br>
     http://localhost/superheroes-hangman
 
 ¡MUCHA SUERTE!
