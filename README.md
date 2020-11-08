@@ -28,9 +28,10 @@ Linux: [Lampp](https://www.apachefriends.org/es/download.html)<br>
 ### Descarga y despliegue
 
 - Abrir una linea de comandos y situarse en la carpeta correspondiente a localhost<br><br>
-En caso de Xampp -> c:\xampp\htdocs<br>
-En caso de Lampp -> c:\lampp\htdocs<br>
-En caso de Laragon -> c:\laragon\wwww<br><br>
+Ejemplos, por defecto:<br>
+En caso de Xampp -> C:\xampp\htdocs<br>
+En caso de Lampp -> C:\lampp\htdocs<br>
+En caso de Laragon -> C:\laragon\wwww<br><br>
     git clone https://github.com/tonizzzzz/superheroes-hangman.git
 
 ## Ejecución
