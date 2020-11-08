@@ -1,6 +1,5 @@
 <?php
 require("Utils.php");
-require("../Game.php");
 
 class GameController
 {

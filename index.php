@@ -1,7 +1,6 @@
 <?php
 
 //Incluyo los archivos necesarios
-require("./models/Game.php");
 require("./controllers/GameController.php");
 
 //Instancio el controlador
