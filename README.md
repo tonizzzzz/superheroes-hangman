@@ -35,7 +35,7 @@ En caso de Laragon -> c:\laragon\wwww<br>
     git clone https://github.com/tonizzzzz/superheroes-hangman.git
 
 
-### Ejecución
+## Ejecución
 
 - Abrir el navegador y ejecutar la siguiente dirección:<br>
     
