@@ -19,7 +19,7 @@ En caso de no acertar en 5 intentos, todos los jugadores quedan eliminados.
 
 ### Pre-requisitos
 
-- Tener un entorno web instalado en el equipo que incluya servidor Apache con PHP > 7.0.<br>
+- Tener un entorno web instalado en el equipo que incluya servidor Apache con PHP > 7.0.<br><br>
 - Ejemplos de entornos:<br>
 Windows: [Xampp](https://www.apachefriends.org/es/index.html) & [Laragon](https://laragon.org)<br>
 Linux: [Lampp](https://www.apachefriends.org/es/download.html)<br>
