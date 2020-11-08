@@ -13,15 +13,19 @@ La jugabilidad es colectiva y compartida.
 El primero que acierte la palabra gana.
 En caso de no acertar en 5 intentos, todos los jugadores quedan eliminados.
 
+---
 
 ## Instalación
 
 ### Pre-requisitos
 
 - Tener un entorno web instalado en el equipo que incluya servidor Apache con PHP > 7.0.
-    Ejemplos de entornos:
-        Windows:  Xampp, Laragon
-        Linux: Lampp
+<br>
+- Ejemplos de entornos
+<br>
+Windows: [Xampp](https://www.apachefriends.org/es/index.html) & [Laragon](https://laragon.org)
+<br>
+Linux: [Lampp](https://www.apachefriends.org/es/download.html)
 
 ### Descarga y despliegue
 
