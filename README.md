@@ -1,6 +1,5 @@
-# SuperHeroes Hangman
-
 <div align="center">
+        # SuperHeroes Hangman
         <img
             alt="SuperHeroes Hangman"
             src="https://github.com/tonizzzzz/superheroes-hangman/blob/main/src/img/header.png?raw=true"
