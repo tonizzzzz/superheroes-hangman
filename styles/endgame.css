@@ -1,0 +1,119 @@
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.header-title {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 0px;
+    height: auto;
+}
+
+.header-title h1 {
+    margin-left: 20px;
+    justify-self: end;
+    font-size: 20px;
+}
+
+.header-title h1.gameTitle {
+    justify-self: end;
+    text-decoration: double;
+    font-size: 30px;
+}
+
+.header-title img {
+    justify-self: start;
+    max-width: 50px;
+    margin-right: 20px;
+}
+
+.game-results {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+}
+
+.game-results img {
+    padding: 20px;
+}
+
+.game-results .result {
+    color: var(--main-bg-color);
+    padding: 20px;
+    font-size: 50px;
+}
+
+.game-results span.superhero {
+    padding: 20px;
+    font-size: 50px;
+}
+
+.game-results label.heroselected {
+    padding: 20px;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.game-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.game-buttons a {
+    width: 180px;
+    padding: 3px;
+    font-size: 30px;
+    margin: 20px 20px 40px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--main-text-color);
+    background: var(--main-bg-color);
+    border: thin;
+    justify-self: center;
+    font-family: Fresko;
+}
+
+@media (max-width: 768px) {
+    .game-buttons {
+        grid-template-columns: 1fr;
+    }
+    .game-buttons a {
+        width: 180px;
+        margin: 5px 20px 5px 20px;
+    }
+    .game-results span.superhero {
+        font-size: 30px;
+    }
+    .game-results label.heroselected {
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header-title {
+        grid-template-columns: 4fr 1fr;
+    }
+    .header-title img {
+        width: 30px;
+    }
+    .header-title h1.gameTitle {
+        font-size: 20px;
+    }
+    .game-buttons {
+        grid-template-columns: 1fr;
+    }
+    .game-buttons a {
+        width: 180px;
+        margin: 5px 20px 5px 20px;
+    }
+    .game-results span.superhero {
+        font-size: 25px;
+    }
+    .game-results label.heroselected {
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+}

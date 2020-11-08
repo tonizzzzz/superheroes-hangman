@@ -1,0 +1,116 @@
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.header-title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0px;
+    padding: 8px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.header-title h1 {
+    margin-left: 0px;
+    justify-self: start;
+    font-size: 20px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+}
+
+.header-title div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    align-self: end;
+    justify-self: end;
+    justify-content: end;
+    vertical-align: middle;
+}
+
+.header-title img {
+    display: table-row;
+    justify-self: end;
+    max-width: 32px;
+    vertical-align: middle;
+    align-items: center;
+    align-self: center;
+}
+
+.header-title h1.playerTitle {
+    justify-self: start;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.header-title h1.gameTitle {
+    grid-auto-columns: max-content;
+    justify-self: end;
+    text-decoration: double;
+    font-size: 30px;
+}
+
+.game-container {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+#hangmanLetters {
+    margin: 20px 0 40px 0;
+    padding: 20px 0 0 20px;
+    justify-content: end;
+    max-width: auto;
+    letter-spacing: 10px;
+    font-size: 30px;
+    height: 120px;
+    grid-column: span 2;
+    border: 1px solid red;
+}
+
+#hangmanStatus img {
+    width: 280px;
+}
+
+#hangmanHiden {
+    align-self: end;
+    margin-bottom: 12px;
+    grid-column: 2 / span 2;
+}
+
+#hangmanHiden span {
+    font-size: 20px;
+    margin: 4px;
+    padding: 4px;
+}
+
+@media (max-width: 768px) {
+    .game-container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+    }
+    #hangmanHiden {
+        grid-column: 1;
+    }
+    #hangmanLetters {
+        margin-top: 12px;
+        grid-column: 1;
+    }
+}
+
+@media (max-width: 425px) {
+    .header-title h1.playerTitle {
+        font-size: 24px;
+    }
+    .header-title h1.gameTitle {
+        font-size: 24px;
+    }
+    .header-title img {
+        width: 20px;
+    }
+}
