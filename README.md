@@ -1,11 +1,12 @@
+# SuperHeroes Hangman
+
 <div align="center">
-        # SuperHeroes Hangman
         <img
             alt="SuperHeroes Hangman"
             src="https://github.com/tonizzzzz/superheroes-hangman/blob/main/src/img/header.png?raw=true"
             />
 </div>
-
+<br />
 Juego común del ahorcado basado en superheroes. 
 Elige el número de jugadores, introduce el nombre y... ¡A jugar!
 La jugabilidad es colectiva y compartida.
