@@ -37,6 +37,7 @@ git clone https://github.com/tonizzzzz/superheroes-hangman.git
 
 ## Ejecución
 
+- Abrir el entorno escogido y levantar el servicio <b>Apache</b>
 - Abrir el navegador y ejecutar la siguiente dirección:<br><br>
 ```
 http://localhost/superheroes-hangman
