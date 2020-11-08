@@ -30,7 +30,6 @@ Linux: [Lampp](https://www.apachefriends.org/es/download.html)<br>
 - Abrir una linea de comandos y situarse en la carpeta correspondiente a localhost<br><br>
 Ejemplos, por defecto:<br><br>
 En caso de Xampp -> C:\xampp\htdocs<br>
-En caso de Lampp -> C:\lampp\htdocs<br>
 En caso de Laragon -> C:\laragon\wwww<br><br>
 ```
 git clone https://github.com/tonizzzzz/superheroes-hangman.git
