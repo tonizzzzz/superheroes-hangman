@@ -7,23 +7,20 @@ require("./controllers/GameController.php");
 //Instancio el controlador
 $controller = new GameController;
 $utils = new Utils;
-$action = isset($_GET["action"])?$_GET["action"]:"";
+$action = isset($_GET["action"]) ? $_GET["action"] : "";
 
-switch($action) {
+switch ($action) {
     case 'playgame':
-        $playAgain = isset($_GET["playagain"])?$_GET["playagain"]:false;
+        $playAgain = isset($_GET["playagain"]) ? $_GET["playagain"] : false;
         $controller->playGame($_POST, $playAgain);
-    break;
+        break;
     case 'endgame':
         $controller->endGame($_REQUEST);
-    break;
+        break;
     case 'checkLetter':
         $utils->checkLetter($_POST);
-    break;
+        break;
     default:
         $controller->index();
-    break;
+        break;
 }
-
-
-?>

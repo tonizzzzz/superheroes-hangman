@@ -8,12 +8,16 @@
         <img class="responsive" src="src/img/HeaderFace.png" />
     </div>
     <div class="game-results">
+        <!-- Resultado: Ganador o Perdedor -->
         <span class="result">
             <?= $_REQUEST['status'] == 'f' ? 'LOSER' : 'WINNER' ?>
         </span>
+        <!-- Imagen "happy" o "angry" del superheroe, según resultado -->
         <img src="<?= $imgResult ?>" />
+        <!-- Palabra oculta revelada -->
         <span class="superhero">SUPERHERO:<label class="heroselected"><?= $selectedHero ?></label></span>
     </div>
+    <!-- Botones de control de juego y estilos -->
     <div class="game-buttons">
         <a href="index.php?action=playgame&amp;playagain=true">Play Again</a>
         <a href="index.php">New Game</a>

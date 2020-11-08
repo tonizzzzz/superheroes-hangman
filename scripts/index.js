@@ -1,3 +1,13 @@
+/*
+ * CONTROL DE CANTIDAD DE JUGADORES Y NOMBRES
+ *
+ * Genera tantos campos como cantidad de jugadores introduzcas
+ * Input:
+ *      nPlayers -> Nº de jugadores
+ *      playerNames -> Nombre de jugadores
+ * 
+ */
+
 $(function() {
     //Cuando el elemento nPlayers cambie de valor, crea las celdas correspondientes
     $("#nPlayers").on("change keyup keypress", function(e) {

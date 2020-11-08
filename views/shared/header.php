@@ -8,6 +8,7 @@ if (session_id() == '') {
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="src/img/HeaderFace.png" type="image/x-icon"/>
     <?php 
         if(isset($_SESSION["theme"])) { 
             $theme = unserialize($_SESSION["theme"]);

@@ -1,7 +1,7 @@
 <?php
 class Utils
 {
-    //Generar los espacios para la palabra a adivinar
+    // Generar los espacios para la palabra a adivinar
     public function generateUnderlineWord($items, $randomSH)
     {
         $underline = "";
@@ -17,7 +17,7 @@ class Utils
         return $underline;
     }
 
-    //Comprobar la letra introducida
+    // Comprobar la letra introducida
     function checkLetter($params)
     {
         session_start();
@@ -29,7 +29,7 @@ class Utils
         $selectedHero   = strtoupper($_SESSION["selectedHero"]);
         $letter         = strtoupper($params['letter']);
         $response       = array();
-
+        
         if (isset($_SESSION["wrongLetters"])) {
             $wrongLetters = unserialize($_SESSION["wrongLetters"]);
         }
@@ -41,13 +41,13 @@ class Utils
             $wrongLetters[] = $letter;
         }
 
-        //Si la letra introducida es correcta, damos respuesta true y la añadimos a "letras correctas"
+        // Si la letra introducida es correcta, damos respuesta true y la añadimos a "letras correctas"
         if (strpos($selectedHero, $letter) !== false) {
             $response["exist"] = true;
             if (!in_array($letter, $rightLetters)) {
                 $rightLetters[] = $letter;
             }
-        //Si la letra introducida NO está en la palabra oculta
+            // Si la letra introducida NO está en la palabra oculta
         } else {
             $response["exist"] = false;
             if ($currentPlayer == ($nPlayers - 1)) {
@@ -64,8 +64,6 @@ class Utils
         $response["wrongLetters"] = $wrongLetters;
         $response["rightLetters"] = $rightLetters;
         $response["keyPlaceHolder"] = [];
-
-
 
         for ($i = 0; $i < strlen($selectedHero); $i++) {
             if ($selectedHero[$i] == ' ' || $selectedHero[$i] == '-') {

@@ -117,3 +117,13 @@
         letter-spacing: 5px;
     }
 }
+
+@media (max-width: 320px) {
+    .game-results span.superhero {
+        font-size: 18px;
+    }
+    .game-results label.heroselected {
+        font-size: 18px;
+        letter-spacing: 5px;
+    }
+}
