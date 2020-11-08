@@ -1,5 +1,11 @@
 <footer>Copyright - all right reserved</footer>
 
+<?php 
+if (!isset($theme)) {
+  $theme = "";
+}
+?>
+
 <div id="themeModal" class="modal">
   <div class="modal-content">
     <div class="modal-header">
